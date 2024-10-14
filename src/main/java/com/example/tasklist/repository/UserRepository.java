@@ -18,4 +18,8 @@ public interface UserRepository {
 
     void insertUserRole(Long userId, Role role);
 
+    boolean isTaskOver(Long userID, Long taskId);
+
+    void delete(Long id);
+
 }
